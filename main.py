@@ -35,7 +35,7 @@ chrome_options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(chrome_options)
 
-google_form_link = "https://forms.gle/Pc8ZkBKaCrs5vYSTA"
+google_form_link = "MY FORM"
 
 for n in addresses:
     driver.get(google_form_link)
